@@ -2,8 +2,6 @@ import requests
 from time import time
 
 
-
-
 def get_file(url):
     r = requests.get(url, allow_redirects=True)
     return r
